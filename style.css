@@ -1,9 +1,6 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -11,24 +8,16 @@ body {
 }
 
 nav{
-    width: 1920px;
-    height: 69px;
     flex-shrink: 0;
     background: #032900;
     justify-self: start;
+    color:white;
 }
-
-body{
-    width: 1920px;
-    height: 1080px;
-    background: #083700;
-}
-
 .wel-text {
     color: #FFF;
     font-family: Inter;
     font-size: 128px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 600;
     line-height: normal;
     white-space: nowrap; /* Prevent text from wrapping */
