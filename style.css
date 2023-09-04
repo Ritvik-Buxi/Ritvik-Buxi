@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+}
+
+nav{
+    width: 1920px;
+    height: 69px;
+    flex-shrink: 0;
+    background: #032900;
+    justify-self: start;
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+    background: #083700;
+}
+
+.wel-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: moveText 5s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%); /* Start from the right */
+        letter-spacing: normal+10px; /* Normal letter spacing */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left */
+        letter-spacing: normal; /* Increased letter spacing */
+    }
+}
